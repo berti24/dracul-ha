@@ -1,7 +1,7 @@
 # based on Dracula theme - https://draculatheme.com/
 # inspired by draculaish-ha-theme by malcolmturnbull - https://github.com/malcolmturnbull/draculaish-ha-theme
 #
-dracul-ha:
+Dracul-ha:
   #basic Dracula theme colors
   dracula-cyan: "#8be9fd"
   dracula-green: "#50fa7b"
@@ -14,18 +14,19 @@ dracul-ha:
   dracula-foreground: "#f8f8f2"
   dracula-current-line: "#44475a"
   dracula-comment: "#6272a4"
-  #enhanced dracula colors
-  dracula-background-vanhelsing: "#000000"
-  dracula-current-line-vanhelsing: "#303030"
-  dracula-background-light: "#DEE2E6"
-  dracula-background-light-secondary: "#E9ECEF"
-  dracula-disabled: rgb(72, 72, 74)
-  dracula-lightgrey: rgb(203, 203, 205)
+  #enhanced dracul-ha colors
+  dracul-ha-blue: "#3a86ff"
+  dracul-ha-lightgrey: "#cbcbcd"
+  dracul-ha-disabled: "#48484a"
+  dracul-ha-background-light: "#DEE2E6"
+  dracul-ha-background-light-secondary: "#E9ECEF"
+  dracul-ha-background-vanhelsing: "#000000"
+  dracul-ha-current-line-vanhelsing: "#303030"
 
   # Error, Warning, Success and Info colors
   error-color: var(--dracula-red)
   warning-color: var(--dracula-yellow)
-  sucess-color: var(--dracula-green)
+  success-color: var(--dracula-green)
   info-color: var(--dracula-comment)
 
   # Mushroom
@@ -34,35 +35,35 @@ dracul-ha:
   modes:
     light:
       # Header:
-      app-header-background-color: var(--dracula-background-light-secondary)
+      app-header-background-color: var(--dracul-ha-background-light-secondary)
       app-header-text-color: var(--dracula-comment)
       app-header-selection-bar-color: var(--dracula-green)
       app-header-edit-background-color: var(--dracula-orange)
       # Main Interface Colors
       primary-color: var(--dracula-purple)
-      primary-background-color: var(--dracula-background-light)
-      secondary-background-color: var(--dracula-background-light-secondary)
-      divider-color: var(--dracula-background-light)
+      primary-background-color: var(--dracul-ha-background-light)
+      secondary-background-color: var(--dracul-ha-background-light-secondary)
+      divider-color: var(--dracul-ha-background-light)
       accent-color: var(--dracula-pink)
       # Text
       primary-text-color: var(--dracula-background)
       secondary-text-color: var(--dracula-comment)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: var(--dracula-disabled)
+      disabled-text-color: var(--dracul-ha-disabled)
       # Sidebar Menu
       sidebar-icon-color: var(--dracula-comment)
       sidebar-text-color: var(--dracula-comment)
-      sidebar-background-color: var(--dracula-background-light)
+      sidebar-background-color: var(--dracul-ha-background-light)
       sidebar-selected-background-color: var(--primary-background-color)
       sidebar-selected-icon-color: var(--dracula-pink)
       sidebar-selected-text-color: var(--dracula-pink)
       # Cards
-      card-background-color: var(--dracula-background-light-secondary)
-      ha-card-background: var(--dracula-background-light-secondary)
+      card-background-color: var(--dracul-ha-background-light-secondary)
+      ha-card-background: var(--dracul-ha-background-light-secondary)
       ha-card-border-color: none
       ha-card-border-width: 0px
       # Progress bar
-      ha-bar-background-color: var(--dracula-lightgrey)
+      ha-bar-background-color: var(--dracul-ha-lightgrey)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -89,23 +90,23 @@ dracul-ha:
       accent-color: var(--dracula-pink)
       # Text
       primary-text-color: var(--dracula-foreground)
-      secondary-text-color: var(--dracula-comment)
+      secondary-text-color: var(--dracul-ha-lightgrey)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: var(--dracula-disabled)
+      disabled-text-color: var(--dracul-ha-disabled)
       # Sidebar Menu
       sidebar-icon-color: var(--dracula-comment)
-      sidebar-text-color: var(--dracula-comment)
-      sidebar-background-color: var(--dracula-background)
+      sidebar-text-color: var(--dracula-purple)
+      sidebar-background-color: var(--dracula-current-line)
       sidebar-selected-background-color: var(--primary-background-color)
-      sidebar-selected-icon-color: var(--dracula-cyan)
-      sidebar-selected-text-color: var(--dracula-cyan)
+      sidebar-selected-icon-color: var(--dracula-pink)
+      sidebar-selected-text-color: var(--dracula-pink)
       # Cards
       card-background-color: var(--dracula-current-line)
       ha-card-background: var(--dracula-current-line)
       ha-card-border-color: none
       ha-card-border-width: 0px
       # Progress bar
-      ha-bar-background-color: var(--dracula-lightgrey)
+      ha-bar-background-color: var(--dracul-ha-lightgrey)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -116,3 +117,4 @@ dracul-ha:
       input-label-ink-color: var(--secondary-text-color)
       input-idle-line-color: var(--primary-text-color)
       input-hover-line-color: var(--accent-color)
+
